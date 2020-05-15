@@ -1,0 +1,71 @@
+.admin{
+    text-align: center;
+}
+.admin nav{
+    display: flex;
+    justify-content: space-between;
+}
+.admin nav .nav-box{
+    flex: 1;
+}
+.admin nav span{ 
+    display: block; 
+    padding: 16px 0;
+}
+.admin nav li{
+    padding: 16px 0;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.admin nav .nav-box-main-li{
+    position: relative;
+    padding: 0;
+    opacity: 0.8;
+}
+.admin nav .nav-box-main-li.active{
+    opacity: 1;
+}
+.admin nav .nav-box-main-li ul{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.admin nav .nav-box-main-li:hover ul{
+    display: block;
+    top: 48px;
+}
+.admin nav .nav-box-main-li ul li{
+    width: 100%;
+}
+.admin .panel-box{
+    display: none;
+    padding: 40px 0;
+}
+.admin .panel-box.active{
+    display: block;
+}
+.admin .panel-box h1{
+    padding-bottom: 20px;
+}
+.pre-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-box{
+    margin: 20px 0;
+}
+.admin-button:hover{
+    background-color: rgb(24, 19, 29);
+}
+
+.admin-button, .admin-input, select{
+    width: 260px;
+}
+select{
+    background-color: inherit;
+    color: #000;
+    border: 1px solid #444;
+}

@@ -1,0 +1,8 @@
+.order-box{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #74313f;
+}
+.order-box a{
+    display: block;
+}

@@ -1,0 +1,12 @@
+.order-food{
+    text-align: center;
+}
+.order-food #note{
+    width: 260px;
+    height: 100px;
+    padding: 4px;
+    background-color: inherit;
+    border: 1px solid #444;
+    resize: none;
+    outline: none;
+}

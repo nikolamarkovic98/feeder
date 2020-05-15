@@ -1,0 +1,27 @@
+header{
+    margin-bottom: 40px;
+    background-color: #EFBF9C;
+    color: #000;
+}
+header .content-wrap{
+    display: flex;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+header li{
+    display: inline-block;
+    margin-left: 40px;
+}
+header li a{
+    color: #000;
+}
+header #logo{
+    margin: 0 100px 0 0;
+    font-size: 32px;
+    flex: 0;
+}

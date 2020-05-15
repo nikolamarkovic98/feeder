@@ -1,0 +1,19 @@
+.poll{
+    text-align: center;
+}
+.poll .pre-wrapper{
+    flex-direction: row;
+}
+.restaurant{
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(42, 34, 48);
+    border: 1px solid #333;
+}
+/*.restaurant-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}*/

@@ -1,0 +1,28 @@
+.list-box{
+    color: rgb(180, 180, 180);
+}
+.list-box h2{
+    color: #fff;
+}
+.list-box .date{
+    font-size: 12px;
+}
+.poll-box{
+    position: relative;
+}
+.poll-box .active{
+    position: absolute;
+    top: 0;
+    right: -30px;
+    font-size: 32px;
+    color: green;
+    transform: rotate(36deg);
+}
+.poll-box .active.green{
+    
+    right: -50px;
+    color: green;
+}
+.poll-box .active.red{
+    color: red;
+}

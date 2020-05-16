@@ -1,2 +1,0 @@
-# feeder
-Food ordering application

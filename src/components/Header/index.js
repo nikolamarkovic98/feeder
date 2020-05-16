@@ -17,7 +17,6 @@ const Header = props => {
                                 <ul>
                                     <li><Link to="/polls">Polls</Link></li>
                                     <li><Link to="/orders">Orders</Link></li>
-                                    <li><Link to="/settings">Settings</Link></li>
                                     {
                                         context.user.username === 'admin' ?
                                         <li><Link to="/admin">Admin</Link></li>

@@ -11,7 +11,6 @@ import Polls from './components/Polls';
 import Poll from './components/Polls/sub/Poll';
 import Orders from './components/Orders';
 import Order from './components/Orders/sub/Order';
-import Settings from './components/Settings';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import Admin from './components/Admin';
@@ -26,6 +25,7 @@ const showAdminPanel = user => {
 
 // razlog zbog kojeg su sve komponente funkcionalne je taj sto sam u prethodnim projektima koristio uglavnom klasne komponente
 // pa sam zbog toga ovu app hteo da napravim sa funkcijama
+
 const App = props => {
     const [user, setUser] = useState({username: null});
 
@@ -44,7 +44,6 @@ const App = props => {
                             { user.username !== null && <Redirect from="/signup" to="/polls" /> }
                             { user.username === null && <Redirect from="/order-food" to="/signin" /> }
                             <Route path="/" exact component={Home} />
-                            <Route path="/settings" component={Settings} />
                             <Route path="/signup" component={SignUp} />
                             <Route path="/signin" component={SignIn} />
                             <Route path="/polls/:id" component={Poll} />
